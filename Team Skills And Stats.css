@@ -1,0 +1,180 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+header h1 {
+  float: left;
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+header nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+header nav a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+header nav a:hover {
+  color: #007bff;
+}
+.services {
+  padding: 40px 0;
+  background-color: #fff;
+}
+.services h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+.services p {
+  text-align: center;
+  color: #666;
+}
+.features {
+  padding: 40px 0;
+  background-color: #f4f4f4;
+}
+.features .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.features .feature {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.features .feature img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.features .feature h3 {
+  color: #333;
+}
+.features .feature p {
+  color: #666;
+}
+.about {
+  padding: 40px 0;
+  background-color: #fff;
+}
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+.about p {
+  text-align: center;
+  color: #666;
+}
+.stats {
+  padding: 40px 0;
+  background-color: #f4f4f4;
+}
+.stats .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.stats .stat {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.stats .stat h3 {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.stats .stat p {
+  color: #666;
+}
+.skills {
+  padding: 40px 0;
+  background-color: #fff;
+}
+.skills h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+.skills .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skills .skill {
+  width: 48%;
+  margin-bottom: 20px;
+}
+.skills .skill h3 {
+  color: #333;
+}
+.skills .progress-bar {
+  background-color: #eee;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.skills .progress {
+  background-color: #007bff;
+  height: 10px;
+  border-radius: 5px 0 0 5px;
+}
+.skills .progress-bar span {
+  display: block;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #333;
+  font-size: 12px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
+footer .heart {
+  color: #ff0000;
+}
